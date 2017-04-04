@@ -1,0 +1,21 @@
+Thomas EITER
+    knowledge representation and reasoning
+    computational logic
+    algorithms and complexity in AI
+    declarative problem solving
+    nonmonotonic logic programming and databases
+    reasoning about actions and change
+    intelligent agents
+http://www.kr.tuwien.ac.at/staff/eiter/
+15 (!) FWF Projekte
+https://scholar.google.com/citations?hl=en&user=X1L03cIAAAAJ&view_op=list_works&sortby=pubdate
+related to: Georg GOTTLOB
+
+Ernst BUCHBERGER
+
+Ernst Buchberger holds a diploma in computer science from the Vienna University of Technology and a doctorate with a thesis on natural language generation. He is Assistant Professor at the Section for Artifical Intelligence of the Center for Medical Statistics, Informatics, and Intelligent Systems at the Medical University of Vienna, Austria, which he joined as a Research Assistant in 1981 (then Department of Med. Cybernetics of the University of Vienna). In 1984, he also joined the then newly founded Austrian Research Institute for Artificial Intelligence (OFAI). From Sept. 1994 to April 1995, he was a guest researcher at the Institut f. Maschinelle Sprachverarbeitung (IMS) at the University of Stuttgart, Germany.  
+http://www.meduniwien.ac.at/user/ernst.buchberger/
+
+Stefan WOLTRAN
+I studied Computer Science at TU Wien (Vienna University of Technology) and received my diploma in February 2001. In May 2003, I received my PhD in Computer Science. From July 2001 to May 2007 I was working as a project research assistant in the Knowledge-Based Systems Group on projects funded by the Austrian Research Fund (FWF). They were about QBF encodings and afterwards about ASP-equivalence. Since June 2007, I am an assistant professor at the Database and Artificial Intelligence Group (184/2). In November 2008, I received my Habilitation in the area of ``Information Systems'' at the Faculty of Computer Science of TU Wien. From August 2013 to January 2015, I have been associate professor at the Database and Artificial Intelligence Group (184/2). In Winter Term 2013, I held a deputy professorship at Leipzig University. Since February 2015, I am full professor for "Formal Foundations of Artificial Intelligence" at the Database and Artificial Intelligence Group (184/2), 
+http://www.dbai.tuwien.ac.at/staff/woltran/
