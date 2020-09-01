@@ -11,7 +11,7 @@
 * this idea came form an experimental mindset, where we assumed having a certain dataset which we could compute globally -> then split the data & compare with distributed results
 * reality however will actually determine datasets and their locality (distribution) for us. Also, graph types will never be text-book pure
   - also, in modern network representation learning approaches (RW-based  / GCNs) strict graph classes are rarely mentioned
-* the whole are of Graph Representation Learning (GRL) has become a lot more important to us, since it could help to produce 
+* the whole are of Graph Representation Learning (GRL) has become a lot more important to us, since it could help to produce diver
 
 
 ### What have we learned
@@ -28,6 +28,8 @@
   - can be sampled for each node => built-in parallelization
   - don't need to compute the whole graph at once
   - can learn weight matrices forming an inductive model, so we can classify previously unseen nodes later on
+
+
 * in the contemporary DL era, we are usually using concept vectors to express things:
   - word embeddings (encoding meaning)
   - structural embeddings (encoding the 'role' of a node in a network)
