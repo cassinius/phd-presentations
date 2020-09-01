@@ -62,6 +62,7 @@
     + on the other hand, they should be more accurate (overfit?) on local data => GRAPH ENSEMBLES ??
     + maybe same problem in a big, local graph... because it's parts can have different substructures...
 * learn a collaboration graph (see below)
+  - this is what we called the `connection surfaces` before...
 
 
 ### Misc (Bellet)
