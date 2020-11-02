@@ -33,8 +33,9 @@
   - explain GraphSAGE (or better: neighborhood aggregation methods)
     - 1st sample a `computation graph` for each and every node in the graph
     - this might produce great overlap, but can be done for each node individually & therefore in parallel
-    - the idea goes back to Weisfeiler-Lehman Kernels, which assign each node a compressed label based on the initial label of it's neighbours
-    - 
+    - the idea goes back to Weisfeiler-Lehman Kernels, which assign each node a compressed label based on the initial label of it's neighbours - and it repeats this for all nodes until two labels of $G$ and $G'$ diverge, then it stops - if it never stops, two graphs *might* be isomorphic (but it's not guaranteed)
+    - feature vectors of each node are then propagated *"inwards"* towards the center node of a `compute graph`
+    - weight matrices at each layer - those weight matrices are shared => this is actually a miracle - why would this work throughout a graph with possible different substructures / topologies / scale effects...??
 * Can those two approaches work in tandem & improve upon each other?
   - embeddings can capture similarity between nodes that are not reachable from one another
   - embeddings can capture similarity between nodes that are far from one another in a (general) input graph (like co-authorship or co-purchase)
@@ -89,4 +90,12 @@
    2. extract graphs from unstructured text (patient data), medial knowledge bases, *omics etc.
    3. attempt to fuse them into a multimodal graph living in a shared concept space (same embedding dimensions)
 
+
+### References
+
+* Nino Shervashidze, Pascal Schweitzer, Erik Jan van Leeuwen, Kurt Mehlhorn, and Karsten M. Borgwardt. 2011. Weisfeiler-Lehman Graph Kernels. J. Mach. Learn. Res. 12, null (2/1/2011), 2539–2561.
+* Leskovec GraphSage
+* Leskovec DiffPool
+* Leskovec Group - graph construction video
+* Bellet
 
