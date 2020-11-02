@@ -8,10 +8,10 @@
 * original thought was to tackle graphs in a traditional way
   - assume a global (connected) graph
   - distribute it optimally or not via partitioning (KL, MCMF, RW, PR)
-* this idea came form an experimental mindset, where we assumed having a certain dataset which we could compute globally -> then split the data & compare with distributed results
+* this idea came from an experimental mindset, where we assumed having a certain dataset which we could compute globally -> then split the data & compare with distributed results
 * reality however will actually determine datasets and their locality (distribution) for us. Also, graph types will never be text-book pure
   - also, in modern network representation learning approaches (RW-based  / GCNs) strict graph classes are rarely mentioned
-* the whole are of Graph Representation Learning (GRL) has become a lot more important to us, since it could help to produce diver
+* the whole area of Graph Representation Learning (GRL) has become a lot more important to us, since it could help to produce diverse (task-specific ?) embeddings of clusters / sub-graphs for exchange in a decentralized model.
 
 
 ### What have we learned
@@ -26,9 +26,8 @@
 * with a random walk (like deep-walk), it depends if the local graphs are sizeable enough for expressive vectors. 
 * therefore, neighborhood-aggregation is much more promising
   - can be sampled for each node => built-in parallelization
-  - don't need to compute the whole graph at once
+  - don't need to compute the whole graph at once => memory efficient
   - can learn weight matrices forming an inductive model, so we can classify previously unseen nodes later on
-
 
 * in the contemporary DL era, we are usually using concept vectors to express things:
   - word embeddings (encoding meaning)
@@ -78,4 +77,4 @@
 * Asynchronous time model (parallel)
 * Restrict communication to most similar instances
   - similarity via a) `learning task` (objective) or `structural / feature similarity` ?
-  - we learn this via a `collaboration task` where the edge weights correspond similarity of learning tasks between instance $i$ and instance $j$
+  - we learn this via a `collaboration graph` where the edge weights correspond to similarity of learning tasks between instance $i$ and instance $j$
