@@ -38,10 +38,12 @@
 * Can those two approaches work in tandem & improve upon each other?
   - embeddings can capture similarity between nodes that are not reachable from one another
   - embeddings can capture similarity between nodes that are far from one another in a (general) input graph (like co-authorship or co-purchase)
-  - graph 
-* We want to learn a collaboration graph
-  - who talks to whom?
-  - 
+  - what does the farther-distance structure in a similarity graph represent. It's clear that there are 
+
+
+### Approaches / Research avenues
+
+
 
 
 ### Infrastructure
@@ -73,12 +75,18 @@
     + pre-train local embeddings as a whole, then try to align them in a pre-processing step (needs whole )
   - => SEE THE WHOLE DECENTRALIZED DATA SET AS A DISTRIBUTED GRAPH
   - since we're passing messages along edges, we can treat a local sphere or parts thereof as a subgraph, compute it's representation, then send them along an imaginary edge to a different local sphere
-  - QUESTION: do we connect 
+  - QUESTION: do we connect spheres 1:1 with only one possible edge or should multiple regions / sub(sub-)graphs of one local sphere connect to different regions in another (level of granularity)?
+* We want to learn a collaboration graph
+  - who talks to whom?
+  - learning suitable partners via 
 * explainability
-  - 
-* One we have a *"lego toolkit"* of methods, metrics & a software pipeline, we can aim at more ambitious goals:
+  - how do we trace relevant walks / paths / regions throughout a distributed graph?
+  - especially since we only know embeddings & not distinct nodes / edges in other local spheres...??
+* Once we have a *"lego toolkit"* of methods, metrics & a software pipeline, we can aim at more ambitious goals:
    1. extract graphs from histopatho images including labels for nodes / edges
     - cell graph extraction methods already exist
+    - show our earlier graph extractor
    2. extract graphs from unstructured text (patient data), medial knowledge bases, *omics etc.
    3. attempt to fuse them into a multimodal graph living in a shared concept space (same embedding dimensions)
+
 
