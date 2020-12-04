@@ -1,0 +1,6 @@
+TITLE: "Graph embeddings as building blocks for decentralized learning".
+
+
+ABSTRACT:
+
+In recent years, graph neural networks & graph representation learning have seen numerous advances, interesting architectures as well as promising results in various application domains. Concurrently, the paradigm of decentralized or federated Machine Learning has gained enormous momentum due to questions of data security, enhanced privacy-related legislation throughout the world but especially within the EU, but also practical limits of highly centralized cloud infrastructures depending on the availability of "big data". One could conclude that we are seeing the end of an s-curve, with the advent of a succeeding paradigm on the horizon, may it be called distributed-, edge- or decentralized learning. Constructing such systems effectively and efficiently raises the need for data structures amenable to distributed processing. Since real-world graphs are compositional in nature and therefore ideal candidates, this talk will examine how graph embeddings - unsupervised or task specific - could be used to form efficient "connection surfaces" between agents on the edge, minimizing exposure of personal data as well as communication overhead.
